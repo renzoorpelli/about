@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renzo Orpelli - Homepage</title>
+    <meta
+      name="description"
+      content="Personal website of Renzo Orpelli. Software Engineer, Learner, Reader, and Tech Enthusiast."
+    />
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        line-height: 1.6;
+        margin: 2rem auto;
+        max-width: 800px;
+        padding: 0 1rem;
+        background-color: #fafafa;
+        color: #222;
+      }
+      header h1 {
+        font-size: 2rem;
+        margin-bottom: 0.25rem;
+      }
+      nav a {
+        margin-right: 1rem;
+      }
+      section {
+        margin-top: 2rem;
+      }
+      footer {
+        margin-top: 3rem;
+        font-size: 0.9rem;
+        color: #555;
+      }
+      a {
+        color: #0044cc;
+      }
+      a:focus,
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Renzo Orpelli</h1>
+      <p>Software Engineer | Backend Developer | ML Enthusiast</p>
+      <nav aria-label="Social links">
+        <a
+          href="https://www.linkedin.com/in/renzo-orpelli"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LinkedIn</a
+        >
+        <a
+          href="https://github.com/renzoorpelli"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        >
+        <a
+          href="https://twitter.com/renzoorpelli"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Twitter</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <section aria-labelledby="about-title">
+        <h2 id="about-title">About</h2>
+        <p>
+          Welcome! I'm a software engineer who enjoys working on backend systems
+          but also interested in machine learning, compilers and systems
+          programming. This page is my personal hub where you can find links to
+          my work, projects, and writing (not yet).
+        </p>
+      </section>
+
+      <section aria-labelledby="cv-title">
+        <h2 id="cv-title">Resume</h2>
+        <p>
+          You can check it 
+          <a
+            href="https://drive.google.com/file/d/1irE-I2sNQYg3cMJaqxwmeQn3cBv7yLol/view?usp=sharing"
+            class="cv-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            >here</a
+          >
+        </p>
+      </section>
+
+      <section aria-labelledby="blog-title">
+        <h2 id="blog-title">Blog</h2>
+        <p>Soon...</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Renzo Orpelli. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
